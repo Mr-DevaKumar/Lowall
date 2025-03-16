@@ -46,7 +46,8 @@ const Profile = () => {
                     <FaShareAlt className="text-orange-500 text-xl cursor-pointer" />
                     <FaComments className="text-orange-500 text-xl cursor-pointer" />
                     <FaCog className="text-orange-500 text-xl cursor-pointer" />
-                    <FaUser className="text-orange-500 text-xl cursor-pointer bg-orange-300 p-2 rounded-lg" onClick={() => navigate("/profile")} />
+                    <FaUser className="text-orange-500 text-xl cursor-pointer bg-orange-300 p-2 rounded-lg"
+                        onClick={() => navigate("/profile")} />
                 </div>
 
                 {/* Main Content */}
